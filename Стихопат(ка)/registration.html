@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>траница регистрации</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher:400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+<body>
+	<header class= "head_foot">
+		<div class= "social">Соцсети</div>
+		<div class= "project_name">СТИХОПАТ(ка)</div>
+		<div class= "menu"><img src=""></div>
+	</header>
+	<main>
+		<div class="content">
+			<h1>Регистрация нового(й) стихопата(ки)</h1>
+			<p class= "text_center">Пожалуйста заполните поля, расположенные ниже. Или не заполняйте. Нам все равно.</p>
+			<div class= "new_avtor">
+				<form class= "registration">
+					<fieldset class= "new_avtor_info">
+						<p>Введите Пупкин Василий Федорович, или как там вас зовут.</p>
+						<input class= "reg_field" type= "text" name="sowname" size= "45" placeholder= "Фамилия"><br>
+						<input class= "reg_field" type= "text" name= "avtor_name" size= "45" placeholder= "Имя"><br>
+						<input class= "reg_field" type= "text" name= "farthers_name" size= "45" placeholder= "Отчество">
+					</fieldset>
+					<fieldset class= "new_avtor_info">
+						Регистрационные данные:<br>
+						<input  class= "reg_field" type= "text" name= "mail" size= "45" placeholder= "Электронная почта"><br>
+						<input  class= "reg_field" type="password" name="password" size="45" pattern= "[A-Za-z0-9]{8,30}$" placeholder= "Придумайте пароль"><br>
+						<div class= "little_text">От 8 до 30 символов латинского (ABCD)<br> алфавита в любом регистре и цифры.</div>
+						<input  class= "reg_field" type="password" name="password" size="45" pattern= "[A-Za-z0-9]{8,20}$" placeholder= "Повторите пароль">
+					</fieldset>
+					<button class= "batton_l" type="button" name="submit">Регистрация</button>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer class= "head_foot">СТИХОПАТ(ка)</footer>
+</body>
+</html>

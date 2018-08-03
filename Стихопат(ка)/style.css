@@ -1,0 +1,242 @@
+body{
+	background-color: #F1F0F5;
+	font-family: 'Philosopher', sans-serif;
+	text-align: left;
+}
+header{
+	background-color: #f7f7f6;
+	color: #000;
+}
+footer{
+		background-color: #202020;
+		color: #f5f5f5
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 0;
+}
+/*
+@media screen and (min-width: 1200px){
+	.avtors{
+	width: 83.214286%;
+	padding-top: 65px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+	.avtors_random{
+		width: 22.746781%;
+	}
+	.avtors_random:{
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+	.avtors_random{
+		width: 31%;
+	}
+	.avtors_random:not-nth-child(3n) {
+		margin-right: 3.5%;
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px) and (min-width: 576px){
+	
+}
+@media screen and (max-width: 575px){
+	
+}*/
+
+/* Основная часть*/
+.head_foot{
+	width: 72.916667%;
+	height: 140px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.social{
+	width: 18.928571%;
+	height: 140px;
+	float: left;
+}
+.project_name{
+	width: 59.642857%;
+	height: 140px;
+	font-size: 20px;
+	float: left;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+.menu{
+	height: 140px;
+	float: left;
+}
+.content{
+	width: 72.916667%;
+	margin: 0 auto;
+	background-image: url('images/content_fon.png');
+	box-sizing: border-box;
+}
+.avtors{
+	width: 83.214286%;
+	padding-top: 65px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.avtors_random{
+	margin-bottom: 35px;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	position: relative;
+}
+.avtor_photo{
+	width: 100%;
+}
+.hidden_info_top{
+	line-height: 1.5;
+	color: #f7f7f6;
+	background-color: #000;
+	position: absolute;
+	top: 0px;
+}
+.hidden_info_bottom{
+	background-color: #fff;
+	position: absolute;
+	bottom: 0px;
+}
+.hidden_info{
+	width: 100%;
+	height: 0%;
+	opacity: 0.5;
+	font-size: 0px;
+	text-align: center;
+	transition-duration: .3s;
+	transition-delay: .2s;
+	transition-property: height, font-size;
+	transition-timing-function: ease-out;
+}
+div.avtors_random:hover .hidden_info{
+	display: block;
+	font-size: inherit;
+	height: 26.9223077%;
+} 
+.hidden_text{
+	display: none;
+}
+div.avtors_random:hover .hidden_text{
+	display: inline;;
+}
+.main_news{
+	width: 83.214286%;
+	margin: 30px auto 65px;
+	text-align: center;
+}
+button.main_news_button{
+	width: 16.738197%;
+	height:40px;
+	color: white;
+	background-color: #202020;
+}
+.poems{
+	width: 61.785714%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 8.285714%;
+	margin-right: 0;
+}
+.poems_random{
+	/*border: 1px solid #000;*/
+	margin-bottom: 25.5px;
+}
+.categories{
+	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 8.285714%;
+	width: 18.928571%;
+}
+.categories_lirics{
+	margin-bottom: 25px;
+}
+.categories_styles{
+	
+}
+.categories ul{
+	list-style-type: none;
+	text-align: center;
+	list-style-position: inside;
+	padding: 0;
+}
+.categories li{
+	padding: 0;
+}
+.elem{
+	background-color: #F1F0F5;
+	box-sizing: border-box;
+}
+.elem_bordered{
+	border: 1px solid #d6d6d6;
+	height: 455px;
+}
+/*формат текста*/
+.text_center{
+	text-align: center;
+}
+.little_text{
+	font-size: .85em;
+	font-style: italic;
+}
+/* Страница регистрации*/
+.registration{
+
+}
+.new_avtor{
+	padding-left: 10%;
+}
+.new_avtor_info{
+	text-align: center;
+	width: 70%;
+	margin: 10px auto;
+}
+.reg_field{
+	margin-left: 15px;
+	margin-bottom: 5px;
+	background-color: #F0FFF0;
+	border: 1px solid #d6d6d6;
+	border-radius: 10px;
+	font-size: 19px;
+	font-weight: normal;
+	font-style: italic;
+	text-indent: 10px;
+	font-family: inherit;
+}
+fieldset{
+	border-radius: 20px;
+}
+button.button_l{
+	width: 15%;
+	border: 1px solid #d6d6d6;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+/*страница произведения*/
+.poem{
+	width: 60%;
+    margin: 20px auto 0px;
+	font-size: 13px;
+	font-style: italic;
+	text-align: left;
+}
+.poemAbz{
+    width: auto;
+    margin: 5px auto 0px;
+}
