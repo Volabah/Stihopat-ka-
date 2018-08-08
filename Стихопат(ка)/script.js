@@ -9,7 +9,7 @@ var ECG = {
 		if (this.qrs <= 12 && this.qrs >= 8) {alert('Your heart is beating');} 
 		else {alert('Are You Okey?');}
 	},
-}
+};
 ECG.PQ();
 ECG.QRS();
 var Petrov = {
@@ -23,9 +23,10 @@ var Petrov = {
 		if (this.qrs <= 12 && this.qrs >= 8) {alert('Your heart is beating');} 
 		else {alert('Are You Okey?');}
 	},
-}
-Petrov.PQ = prompt('pq')
-Petrov.QRS = prompt('qrs')
+};
+Petrov.PQ = prompt('pq');
+Petrov.QRS = prompt('qrs');
 
 Petrov.PQ();
 Petrov.QRS();
+var  mfjfjf = 'fdsfgdsfsd';
